@@ -6,6 +6,14 @@ Foobar Play Scripts that are non-intrusive for keyboards that have macro keys, u
 HOW-TO
 =================
 
-Copy and paste the Foobar Scripts folder inside your Foobar installation 
+1. Copy and paste the Foobar Scripts folder to inside of your Foobar installation.
+2. Edit "path.txt" to point directly to your foobar2000.exe, for example "C:\Program Files (x86)\foobar2000\foobar2000.exe".
+3. Then simply point your macro key to launch a program when pressed, view the play scripts section to view what functions are available.
 
-Then simply point your macro key to launch a program when pressed, select one of the following for the specified function.
+
+Usable Play Scripts
+=================
+
+VolumeUp.exe    - Raise the volume
+VolumeDown.exe  - Lower the volume
+
