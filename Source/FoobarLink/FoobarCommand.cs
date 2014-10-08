@@ -32,6 +32,7 @@ namespace FoobarLink
 			}
 			else
 			{
+				//Find a way to detect Foobar in known locations.
 				File.Create(@"path.txt");
 			}
 		}
@@ -40,13 +41,7 @@ namespace FoobarLink
 		{
 			if (File.Exists(foobarLocation) && _command.Length > 0 && foobarFound)
 			{
-				Process process = new Process();
-				process.StartInfo.RedirectStandardOutput = true;
-				process.StartInfo.UseShellExecute = false;
-				process.StartInfo.CreateNoWindow = true;
-				process.StartInfo.FileName = @foobarLocation;
-				process.StartInfo.Arguments = "/command:\"" + _command +"\"";
-				process.Start();
+				FoobarStartProcess.StartProcessNoActivate(@foobarLocation + " " + _command);
 			}
 		}
     }

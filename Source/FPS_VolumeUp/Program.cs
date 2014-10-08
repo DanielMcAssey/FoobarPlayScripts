@@ -11,7 +11,7 @@ namespace FPS_VolumeUp
 		{
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.UseWaitCursor = false;
-			FoobarCommand.SendCommand("up");
+			FoobarCommand.SendCommand("/command:up");
 			Application.Exit();
 		}
 	}

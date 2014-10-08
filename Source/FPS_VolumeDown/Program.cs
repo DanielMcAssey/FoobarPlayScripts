@@ -11,7 +11,7 @@ namespace FPS_VolumeDown
 		{
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.UseWaitCursor = false;
-			FoobarCommand.SendCommand("down");
+			FoobarCommand.SendCommand("/command:down");
 			Application.Exit();
 		}
 	}
