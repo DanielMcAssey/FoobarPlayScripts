@@ -14,6 +14,6 @@ HOW-TO
 Usable Play Scripts
 =================
 
-VolumeUp.exe    - Raise the volume
-VolumeDown.exe  - Lower the volume
+- VolumeUp.exe    - Raise the volume
+- VolumeDown.exe  - Lower the volume
 
