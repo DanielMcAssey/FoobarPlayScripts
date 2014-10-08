@@ -17,3 +17,6 @@ Usable Play Scripts
 - VolumeUp.exe    - Raise the volume
 - VolumeDown.exe  - Lower the volume
 
+Tested Macro Keyboards
+=================
+- K95/K70
